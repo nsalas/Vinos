@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>iWine</title>
+<link rel="stylesheet"
+	href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" />
+<link type="text/css" href="./wines.css" rel="stylesheet"  type='text/css'/>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script
+	src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header" class="ui-header-a">
+			<h1>iWine</h1>
+<!--
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#description" data-transition="slideup">Descripci&oacute;n</a></li>
+          			<li><a href="#sheet" data-transition="slideup">Ficha t&eacute;cnica</a></li>
+				</ul>
+			</div>
+-->
+			<!-- /navbar -->
+		</div>
+
+		<div data-role="content">
+			
+			<div class="ui-content">
+					<img src="./images/iWine-bottle2.png" alt="iWine" width="250px"/>
+					<p>iWine es un vino elaborado con uvas albari&ntilde;as y macerado con nieve carb&oacute;nica (hielo seco) a muy baja temperatura para extraer mayor potencia arom&aacute;tica.
+					</p>
+					<p class="cita">
+					"Cuando abres una botella de iWine saltan chispas, fluyen buenas vibraciones, electricidad...Te animas?<br />
+					Prep&aacute;rate para una cata diferente y play the wine!"</p>	
+						
+				<ul data-role="listview" data-inset="true" data-theme="c">
+					<li><a href="#description" data-transition="slide">Descripci&oacute;n</a></li>
+					<li><a href="#sheet" data-transition="slide">Ficha t&eacute;cnica</a></li>
+					<li><a href="#bodega" data-transition="slide">Bodega</a></li>
+					<li><a href="#cata" data-transition="slide">Nota de Cata</a></li>
+	      			<!--<li data-theme="e">Row Theme Example</li>-->
+				</ul>
+				
+				
+				<ul data-role="listview" data-inset="true" data-theme="c">
+					<li><a href="#bodega" data-transition="flip">Facebook</a></li>
+					<li><a href="#cata" data-transition="flip">Twitter</a></li>
+					<li><a href="#cata" data-transition="flip">Compartir</a></li>
+						<!--<li data-theme="e">Row Theme Example</li>-->
+				</ul>
+<!--
+				<div data-role="controlgroup" data-type="horizontal">
+				
+					<a href="#bodega" data-role="button" data-transition="flip">Facebook
+					</a>
+					<a href="#bodega" data-role="button" data-transition="flip" data-iconpos="notext">Twitter</a>
+					<a href="#bodega" data-role="button" data-transition="flip" data-iconpos="notext">Compartir</a>
+				</div>
+-->
+			</div>
+<!--
+			<p>
+				<a href="index.php">Click me to display a default error message!</a>
+			</p>
+-->
+		</div>
+
+		<div data-role="footer">
+<!--
+			<h4>The Footer</h4>
+-->
+			
+		</div>
+
+	</div>
+
+<!-- Start of third page -->
+<div data-role="page" id="contact">
+	<div data-role="header" class="ui-header-a">
+		<h1>Compartir</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="index.html" class="ui-btn-active">Back to Home</a></li>
+          <li><a href="">Another Navigation Bar element</a></li>
+          </li>
+        </ul>
+      </div>
+      <!-- /navbar -->
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<form action="">
+			<fieldset>
+				<legend> ¿Te ha gustado el iWine? Recomi&eacute;ndalo a tus amigos por email: </legend>
+				<div data-role="fieldcontain">
+					<label for="firstname">Direcci&oacute;n de e-mail</label> <input type="text"
+						name="firstname"><br />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="textarea-a">Mensaje</label>
+					<textarea name="mesaje" id="textarea-a">
+					Bebiendo iWine de bodegas PACO&LOLA. Riquisimo!
+					</textarea>
+				</div>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="index.html" data-role="button" data-theme="b">Enviar</a> 
+					<a href="index.html" data-role="button" data-theme="e">Cancelar</a>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer">
+		<h4>Second Footer</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- Start of description page -->
+<div data-role="page" id="description">
+	<div data-role="header" class="ui-header-a">
+		<h1>Descripci&oacute;n</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="notext" data-icon="home" href="index.html" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Inicio</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h2>iWine</h2>
+		<p>Estas son las caracter&iacute;sticas generales que presenta <strong>iWine</strong>. En el caso de querer realizar una <em>cata</em> <a href="index.html" class="ui-link">contacta con nosotros</a>.</p>
+		<h3>Color:</h3><span>iWine Limpio y brillante amarillo pajizo con reflejos verdosos. ¡Un bombazo!</span>
+		<h3>Aroma:</h3>Intensidad finura. Armon&iacute;a y carisma. Fruta madura y flores frescas. Suaves bals&aacute;micos. ¡Tiene ritmo!
+		<h3>Sabor:</h3> Sabroso, carnoso, vivo, fresco &aacute;cido. Equilibrado lleno de matices finos y elegantes. Final para recordad, largo y profundo. Sin duda pegadizo.
+						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer">
+		<h4>Second Footer</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- Start of description page -->
+<div data-role="page" id="bodega">
+	<div data-role="header" class="ui-header-a">
+		<h1>Bodega</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="index.html" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Inicio</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h2>Paco & Lola</h2>
+		<img src="./images/pacolola-bodega.png">
+		<p>Nace del trabajo de un equipo joven y din&aacute;mico con la visi&oacute;n de crear una de las bodegas m&aacute;s modernas de Espa&ntilde;a.<p>
+		
+		<p>Buscamos la expresi&oacute;n de nuestro <em>terroir</em> a trav&eacute;s de un cultivo y una producci&oacute;n cuidada, empleando dep&oacute;sitos, prensas, sistemas de filtraci&oacute;n y de control de temperatura de &uacute;ltima generaci&oacute;n. Empleando m&eacute;todos que <strong>aprovechan los recursos y mecanismos de producci&oacute;n naturales,</strong> elaboramos un vino de m&aacute;xima calidad que respeta nuestro medioambiente. </p>
+						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer">
+		<h4>Second Footer</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<!-- Start of description page -->
+<div data-role="page" id="sheet">
+	<div data-role="header" class="ui-header-a">
+		<h1>Ficha t&eacute;cnica</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="index.html" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Inicio</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="g" class="ui-listview">
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c" >Bodega
+			<p class="ui-li-aside ui-li-desc">Paco & Lola </p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Variedad
+			<p class="ui-li-aside ui-li-desc">100% Albari&ntilde;o (D.O. R&iacute;as Baixas) </p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">A&ntilde;ada
+			<p class="ui-li-aside ui-li-desc">2008</p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Grados
+			<p class="ui-li-aside ui-li-desc">13% vol.</p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Temperatura de consumo
+			<p class="ui-li-aside ui-li-desc">10-12º C</p>
+			</li>
+		</ul>		
+		
+				
+		<p class="right">*Elaborado con nieve carb&oacute;nica.</p>						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer">
+		<h4>Second Footer</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+<!-- Start of description page -->
+<div data-role="page" id="cata">
+	<div data-role="header" class="ui-header-a">
+		<h1>Nota de Cata</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="index.html" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Inicio</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h3>Fase visual:</h3><span>Amarillo pajizo pálido con reflejos verdosos, muy limpios y brillantes.
+		</span>
+		<h3>Fase olfativa</h3>Aromas de muy buena intensidad y finura, fruta blanca madura (manzana, piña). Bien arropado por frescas notas florales (acacia) y delicados dejos balsámicos. Un conjunto armónico y que define bien el carácter de la variedad.
+		<h3>Fase gustativa</h3> En boca es sabroso, carnoso, con una viva y fresca acidez, muy bien equilibrado, pleno de matices aromáticos de gran finura y elegancia con un final de boca donde sobresale una gran estructura que le da longitud y profundidad. 	
+					
+					Fase visual
+					
+					Amarillo pajizo pálido con reflejos verdosos, muy limpios y brillantes.
+					Fase olfativa
+					
+					Aromas de muy buena intensidad y finura, fruta blanca madura (manzana, piña). Bien arropado por frescas notas florales (acacia) y delicados dejos balsámicos. Un conjunto armónico y que define bien el carácter de la variedad.
+					Fase gustativa
+					
+					En boca es sabroso, carnoso, con una viva y fresca acidez, muy bien equilibrado, pleno de matices aromáticos de gran finura y elegancia con un final de boca donde sobresale una gran estructura que le da longitud y profundidad. 	
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer">
+		<h4>Second Footer</h4>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+
+
+</body>
+</html>
