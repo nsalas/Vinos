@@ -1,0 +1,334 @@
+			
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>iWine</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/themes/iwine-purple.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile.structure-1.0rc2.min.css" /> 
+  <link rel="stylesheet" href="css/themes/wines.css"/>
+  
+  <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script> 
+
+</head>
+	
+<body>
+	<div data-role="page" data-theme="a">
+<!--
+		<div data-role="header" class="ui-header-a">
+			<h1>iWine</h1>
+		</div>
+-->		
+
+		<div data-role="content ui-content-bck">
+			<div class="ui-content-bck">
+				<img src="./images/iWine-bottle.png" alt="iWine" class="logo" />
+				<ul data-role="listview" data-inset="true" data-theme="c">
+					<li><a href="#menu">More Info</a></li>
+				</ul>			
+			</div>
+<!--
+			<p>
+				<a href="index.php">Click me to display a default error message!</a>
+			</p>
+-->
+		</div>
+
+		<div data-role="footer" class="footer">
+			<p class="center"> © Winery: Paco & Lola, 2008</p>
+		</div>
+		
+	</div>
+
+<!-- Start of menu page -->
+	<div data-role="page" id="menu">
+<!--	
+		<div data-role="header" class="ui-header-a">
+			<h1>iWine</h1>
+		</div>
+-->
+		<div data-role="content" class="ui-content-bck">
+				<ul data-role="listview" data-inset="true" data-theme="c">
+					<li><a href="#iwine">iWine</a></li>
+					<li><a href="#description">Description</a></li>
+					<li><a href="#sheet">Specs Sheet</a></li>
+					<li><a href="#Winery">Winery</a></li>
+					<li><a href="#cata">Tasting notes</a></li>
+					<li><a href="#contact">Contact</a></li>	      			
+					<!--<li data-theme="e">Row Theme Example</li>-->
+				</ul>
+				
+				
+<!--				
+				<div data-role="controlgroup" data-type="horizontal" data-theme="a">
+					<a href="#compartir" data-role="button">Facebook
+					</a>
+					<a href="#compartir" data-role="button">Twitter</a>
+					<a href="#compartir" data-role="button">Mail</a>
+				</div>
+-->				
+				<div class="center">
+					<h4>¡Share it!</h4>
+					<div class="share-subdiv share-badges">
+						<a href="#share" class="facebook" data-transition="flip">Facebook</a>
+						<a href="#share" class="twitter" data-transition="flip">Twitter</a>
+						<a href="#share" class="mail" data-transition="flip">Newsletter</a>
+					</div>
+				</div>
+		</div>
+
+		<div data-role="footer" class="footer">
+			<p class="center"> © Winery: Paco & Lola, 2008</p>
+		</div>
+		
+	</div>
+<!--Page-->
+
+<!-- Start of third page -->
+<div data-role="page" id="contact">
+	<div data-role="header" class="ui-header-a">
+		<h1>Contact</h1>
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<form action="">
+			<fieldset>
+				<legend> Do you like iWine? Recommend it to your friends via email:</legend>
+				<div data-role="fieldcontain">
+					<label for="firstname">E-mail</label> <input type="text"
+						name="firstname"><br />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="textarea-a">Message</label>
+					<textarea name="mesaje" id="textarea-a">
+					Drinking 1583. Delicious!
+					</textarea>
+				</div>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#menu" data-role="button" data-theme="a">Send</a> 
+					<a href="#menu" data-role="button" data-theme="a">Cancel</a>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+	
+	<!-- /footer -->
+</div>
+<!-- /page -->
+<!-- Start of iwine page -->
+<div data-role="page" id="iwine">
+	<div data-role="header" class="ui-header-a">
+		<h1>iWine</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="notext" data-icon="home" href="#menu" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Menu</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<p >iWine is made with Albariño grapes and dry ice maceration at very low temperatures to create a unique wine of intense aromas and potent flavors.
+		</p>
+		<p class="cita">
+		"When you open a bottle of iWine sparks fly and the beat flows...<br />
+		Are you up for it? Prepare for something different, open the bottle and fill your glass, turn up the volume and play the wine!"</p>
+		
+						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+	
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- Start of description page -->
+<div data-role="page" id="description">
+	<div data-role="header" class="ui-header-a">
+		<h1>Description</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="notext" data-icon="home" href="#menu" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Menu</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h3>Color</h3><p>Blissful, clean and brilliant yellow straw color with green highlights dancing in the light.</p>
+		<h3>Aroma</h3><p>Rhythmic, delicate and intense. Harmonious and full of personality with notes of mature fruit, fresh flowers and smooth balsamic.</p>
+		<h3>Taste</h3><p>Melodic, fresh, acidic and alive. Balanced and full elegant notes and deep flavors than linger.</p>
+						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> Wine produced by the Winery: Paco & Lola, 2008</p>
+	</div>
+	
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- Start of description page -->
+<div data-role="page" id="Winery">
+	<div data-role="header" class="ui-header-a">
+		<h1>Winery</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="#menu" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Menu</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h2>Paco & Lola</h2>
+		<img src="./images/pacolola-bodega.png">
+		<p>Behind <strong>Paco & Lola</strong> is a dynamic team with the vision of creating Spain's most modern winery.<p>
+		
+		<p>Our winemaking is dedicated to <strong>expressing</strong> our local terroir and and we've invested in the latest tank, press, filtering and temperature control systems. Employing sustainable production techniques and minimizing waste, we make a high quality wine that <strong>respects the environment.</strong> </p>
+						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+			<!-- /footer -->
+</div>
+<!-- /page -->
+
+
+<!-- Start of description page -->
+<div data-role="page" id="sheet">
+	<div data-role="header" class="ui-header-a">
+		<h1>Technical guide</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="#menu" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Menu</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<ul data-role="listview" data-theme="g" class="ui-listview">
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c" >Winery
+			<p class="ui-li-aside ui-li-desc">Paco & Lola </p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Variety 
+			<p class="ui-li-aside ui-li-desc">100% Albari&ntilde;o (D.O. R&iacute;as Baixas) </p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Vintage
+			<p class="ui-li-aside ui-li-desc">2008</p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Alcohol by volume
+			<p class="ui-li-aside ui-li-desc">13% vol.</p>
+			</li>
+			<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">Consumption temperature
+			<p class="ui-li-aside ui-li-desc">10-12º C</p>
+			</li>
+		</ul>		
+		
+		<br />		
+		<p class="right">*Made with dry ice</p>						
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+	
+	
+	<!-- /footer -->
+</div>
+<!-- /page -->
+<!-- Start of description page -->
+<div data-role="page" id="cata">
+	<div data-role="header" class="ui-header-a">
+		<h1>Tasting notes</h1>
+		<a class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-direction="reverse" data-iconpos="left" data-icon="home" href="#menu" data-theme="a">
+			<span class="ui-btn-inner ui-btn-corner-all">
+				<span class="ui-btn-text">Menu</span>
+				<span class="ui-icon ui-icon-home ui-icon-shadow"></span>
+			</span>
+		</a>
+		
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<h3>Visual phase</h3><p>Pale straw yellow with greenish hues, very clean and bright.
+		</p>
+		<h3>Nose phase</h3><p>Aromas of good intensity and finesse, ripe white fruit (apple, pineapple). Well wrapped by fresh floral (acacia) and delicate balsamic overtones. A harmonious whole that defines the character of the variety.</p>
+		<h3>Taste phase</h3><p>The palate is rich, meaty, with a lively, fresh acidity, well balanced, full of aromatic nuances of great finesse and elegance with an aftertaste where stands a structure that gives length and depth.</p>
+					
+
+	</div>
+	<!-- /content -->
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+		
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+<!-- Start of third page -->
+<div data-role="page" id="share" data-theme="a">
+	<div data-role="header">
+		<h1>Share</h1>
+	</div>
+	<!-- /header -->
+
+	<div data-role="content">
+		<form action="">
+			<fieldset>
+				<legend> Do you like 1583? Then, you could share it with your friends: </legend>
+				<div data-role="fieldcontain">
+					<br />
+					<textarea name="mesaje" id="textarea-a">Drinking 1583. Delicious!
+					</textarea>
+				</div>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#menu" data-role="button" data-theme="a" data-icon="forward">Share</a> 
+					<a href="#menu" data-role="button" data-theme="a"  data-icon="delete">Cancel</a>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<!-- /content -->
+
+
+	<div data-role="footer" class="footer">
+		<p class="center"> © Winery: Paco & Lola, 2008</p>
+	</div>
+	
+	<!-- /footer -->
+</div>
+<!-- /page -->
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Positions */
+.left { float: left;}
+.right {float: right;}
+.center {text-align: center;}
+
+/*Home page Background*/
+.ui-content-bck {
+	background-color: white;
+	background-image: url(../../images/iwine-bck-black.jpg);
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+
+/*Bottle style*/
+.bottle {
+	width: 80px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+/*Text styles*/
+.cita {
+	font-style: italic;
+	color: #cad01d;
+}
+
+h1 { font-weight: bold; text-shadow: 0 -1px 1px #666; font-style: italic; color: #cad01d; font-size: 20px;}
+h2 { color: #cad01d; }
+h3 { border-bottom: 1px solid #404040; padding-bottom: .4em; color: #cad01d;}
+strong { font-weight: normal; color: #cad01d;}
+
+/*Buttons Share Styles*/
+.share-subdiv {
+	height: 39px;
+	width: 120px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/ 
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  				
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	
+}
+.share-badges a{display:block; height:40px; width:40px; background:#888 url(../../images/share-social-media3.png) no-repeat 0 0; float:left; text-indent:-9999px; margin:0px 0px; }
+.share-badges a:hover{background-color:#eee}
+.share-badges a.facebook{background-position:-40px 0;background-color: #96a1b0;}
+.share-badges a.facebook:hover{background-color:#659df7}
+.share-badges a.twitter{background-position:-80px 0;background-color:#9aacad;}
+.share-badges a.twitter:hover{background-color:#40d6ff}
+.share-badges a.mail{background-position:-120px 0;background-color:#797867;}
+.share-badges a.mail:hover{background-color:#cad01d;}
+
+/*Footer styles*/
+.footer {
+	background-color: #2e2e2e;
+	border-top: 1px solid #ccc;
+	border-bottom: 0px solid #333;
+	background-image: none;
+}
+.footer p{
+	font-style: italic;
+	font-weight:normal;
+}
+

@@ -1,0 +1,99 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	font-size: .85em;
+	background-color: #FAFBEF;
+}
+
+.logo {
+	width: 80px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.cita {
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #4f1e4e;
+}
+
+.ui-icon-arrow-r {
+	background-image: url('http://code.jquery.com/mobile/1.0b1/images/icons-18-black.png');
+	background-color: transparent;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.ui-content {
+	background-color: #FAFBEF;
+}
+.ui-content-a {
+	background-color: #FAFBEF;
+}
+
+
+.ui-content-bck {
+	background-color: white;
+	background-image: url(../../images/iwine-bck.jpg);
+	/*background-image: url(images/iWine-bottle.png);*/
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+
+
+.footer {
+	background-color: #f1f1f1;
+	border-top: 1px solid #ccc;
+	border-bottom: 0px solid #333;
+	background-image: none;
+	font-family: Georgia,serif ;
+}
+
+.footer p{
+	color: #999;
+	text-shadow: 0 -1px 1px white;
+	font-style: italic;
+	font-weight:normal;
+}
+
+h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .4em;
+	color: #540003;
+}
+
+
+/*Buttons Share Styles*/
+.share-subdiv {
+	height: 39px;
+	width: 120px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/ 
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  				
+	rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	
+}
+.share-badges a{display:block; height:40px; width:40px; background:#888 url(../../images/share-social-media3.png) no-repeat 0 0; float:left; text-indent:-9999px; margin:0px 0px; }
+.share-badges a:hover{background-color:#eee}
+.share-badges a.facebook{background-position:-40px 0;background-color: #96a1b0;}
+.share-badges a.facebook:hover{background-color:#659df7}
+.share-badges a.twitter{background-position:-80px 0;background-color:#9aacad;}
+.share-badges a.twitter:hover{background-color:#40d6ff}
+.share-badges a.mail{background-position:-120px 0;background-color:#797867;}
+.share-badges a.mail:hover{background-color:#cad01d;}
+
